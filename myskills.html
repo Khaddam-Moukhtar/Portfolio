@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(50, 50, 50));
+    color: rgb(100, 93, 93);
+    padding: 20px;
+    line-height: 1.6;
+}
+header {
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    font-size: 2.5rem;
+    color: rgb(172, 168, 160);
+    text-shadow: 0 0 10px rgb(171, 165, 157);
+}
+section {
+    margin: 20px auto;
+    max-width: 800px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(235, 236, 237);
+}
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: rgb(231, 229, 226);
+}
+ul,p {
+    list-style: disc;
+    margin: 10px 0 20px 20px;
+    color: rgb(200, 200, 200);
+}
+li {
+    margin: 5px 0;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(151, 148, 143);
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    position: sticky;
+}
+.nav-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.logo span{
+    color: rgb(200, 200, 200);
+    text-shadow: 0 0 10px rgb(200, 200, 200);
+}
+.hamburg, .cancel{
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: white;
+    font-size: 2rem;
+    display: none;
+}
+.nav-container .links {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.nav-container .links a{
+    position: relative;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transform: 0.3s linear;
+}
+.nav-container .links a::before{
+    position: absolute;
+    content: "";
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: rgb(200, 200, 200);
+    transition: 0.2s linear;
+}
+.nav-container .links a:hover::before{
+    width: 100%;
+}
+.nav-container .contact-btn{
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(200, 200, 200);
+    transition: 0.2s linear;
+}
+.nav-container .contact-btn a{
+    color: white;
+    transition: 0.3s linear;
+}
+.nav-container .contact-btn:hover, .nav-container .contact-btn:hover a{
+    background-color: rgb(200, 200, 200);
+    color: black;
+}
+.nav-container .links a:hover{
+    color: rgb(200, 200, 200);
+}
+    </style>
+    <link rel="website icon" type="png" href="gamma.png">
+</head>
+<body>
+    <header>
+        <h1>My Skills</h1>
+    </header>
+    <div class="nav-container">
+        <div class="links">
+            <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="index.html">Home</a></div> 
+            <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="contactme.html">Contact Me</a></div>
+        </div>
+    </div>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Multilingual Skills:</strong> Communication in English, French, Arabic, or other relevant languages.</li>
+            <li>Video Editing: capcut, inshot, video editor</li>
+            <li>Programming Languages: Python</li>
+            <li>Web Development: HTML, CSS</li>
+            <li>Graphic Design: Adobe Photoshop, blender, krita, canva</li>
+        </ul>
+
+        <h2>Soft Skills</h2>
+        <ul>
+            <li>Problem-Solving</li>
+            <li>Time Management</li>
+            <li>Team Collaboration</li>
+            <li>Adaptability</li>
+            <li>Critical Thinking</li>
+        </ul>
+
+        <h2>Experience</h2>
+<p>I have gained valuable experience working in diverse environments, including a library and a café. These roles helped me develop strong organizational, customer service, and time management skills while working with a variety of people and tasks.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
