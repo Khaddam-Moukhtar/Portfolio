@@ -397,5 +397,17 @@ span {
     .hero-description {
         font-size: 14px;
     }
+   
+/* Current Bachelor's Degree */
+
+.education-status {
+    background: rgba(0, 229, 255, 0.08);
+    color: var(--primary-color);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    border: 1px solid rgba(0, 229, 255, 0.15);
+}
+
 
 }
